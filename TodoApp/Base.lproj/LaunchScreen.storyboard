@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,16 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.png" translatesAutoresizingMaskIntoConstraints="NO" id="QbH-zW-rga">
-                                <rect key="frame" x="107" y="348" width="200" height="200"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="todologo.png" translatesAutoresizingMaskIntoConstraints="NO" id="QbH-zW-rga">
+                                <rect key="frame" x="75" y="328.5" width="264" height="239"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="1Iz-Cb-ae4"/>
-                                    <constraint firstAttribute="width" constant="200" id="Qnw-UM-UF0"/>
+                                    <constraint firstAttribute="height" constant="239" id="1Iz-Cb-ae4"/>
+                                    <constraint firstAttribute="width" constant="264" id="Qnw-UM-UF0"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="QbH-zW-rga" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5oQ-Gg-MDC"/>
                             <constraint firstItem="QbH-zW-rga" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="HZj-qI-46Q"/>
@@ -34,13 +33,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>
-        <image name="images.png" width="225" height="225"/>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="todologo.png" width="432" height="138"/>
     </resources>
 </document>

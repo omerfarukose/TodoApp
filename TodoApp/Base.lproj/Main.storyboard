@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Todo App-->
+        <!--TODO APP-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TodoApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -38,6 +38,7 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -49,9 +50,9 @@
                             <constraint firstItem="U6d-G0-d6k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pgL-Pr-Icf"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Todo App" id="Q75-yV-k7W">
+                    <navigationItem key="navigationItem" title="TODO APP" id="Q75-yV-k7W">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="MPQ-ns-nJe">
-                            <color key="tintColor" systemColor="tintColor"/>
+                            <color key="tintColor" systemColor="systemGreenColor"/>
                             <connections>
                                 <action selector="addButtonClicked:" destination="BYZ-38-t0r" id="CgP-zo-cmb"/>
                             </connections>
@@ -73,7 +74,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hpt-RV-tHf">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" systemColor="systemYellowColor"/>
+                        <color key="barTintColor" systemColor="tintColor"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -89,8 +90,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tintColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
