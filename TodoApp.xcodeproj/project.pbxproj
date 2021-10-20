@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		99611751271F277E00661706 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 99611750271F277E00661706 /* images.png */; };
 		99CBDF5227203AB400BD48CC /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CBDF5127203AB400BD48CC /* DatabaseHelper.swift */; };
-		99CBDF542720493000BD48CC /* pp.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 99CBDF532720493000BD48CC /* pp.jpeg */; };
 		99E56529271F244E0071AD1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E56528271F244E0071AD1E /* AppDelegate.swift */; };
 		99E5652B271F244E0071AD1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5652A271F244E0071AD1E /* SceneDelegate.swift */; };
 		99E5652D271F244E0071AD1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5652C271F244E0071AD1E /* ViewController.swift */; };
@@ -42,7 +41,6 @@
 /* Begin PBXFileReference section */
 		99611750271F277E00661706 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
 		99CBDF5127203AB400BD48CC /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
-		99CBDF532720493000BD48CC /* pp.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pp.jpeg; sourceTree = "<group>"; };
 		99E56525271F244E0071AD1E /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E56528271F244E0071AD1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99E5652A271F244E0071AD1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 		99E56527271F244E0071AD1E /* TodoApp */ = {
 			isa = PBXGroup;
 			children = (
-				99CBDF532720493000BD48CC /* pp.jpeg */,
 				99E56528271F244E0071AD1E /* AppDelegate.swift */,
 				99E5652A271F244E0071AD1E /* SceneDelegate.swift */,
 				99E5652C271F244E0071AD1E /* ViewController.swift */,
@@ -244,7 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				99E56538271F24500071AD1E /* LaunchScreen.storyboard in Resources */,
-				99CBDF542720493000BD48CC /* pp.jpeg in Resources */,
 				99E56535271F24500071AD1E /* Assets.xcassets in Resources */,
 				99E56530271F244E0071AD1E /* Main.storyboard in Resources */,
 				99611751271F277E00661706 /* images.png in Resources */,
